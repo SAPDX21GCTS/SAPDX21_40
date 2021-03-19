@@ -2,6 +2,6 @@
     "!!! uncomment one of these rows to manage ATC error (PERFORMANCE_CHECKLIST_HDB)
     " row with error
     SELECT * FROM t001 INTO TABLE @DATA(lt_t001).
-    " row w/o error
+    " row w/o error 1111
     "SELECT bukrs, waers FROM t001 INTO TABLE @DATA(lt_t001).
   ENDMETHOD.
